@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Honda-cbr</title>
+    <!-- bootstrap css -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- bootstrap Js  -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <!-- favicon added here. -->
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+    <!-- stylesheet added here. -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- header strats from here. -->
+    <header class="container-fluid">
+
+        <!-- nav bar starts from here. -->
+        <nav class=" navbar navbar-expand-lg navbar-dark py-4">
+            <div class="container">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse d-lg-flex justify-content-lg-end" id="navbarNav">
+                    <ul class="navbar-nav me-5">
+                        <li class="nav-item pe-4">
+                            <a class="nav-link active fs-5" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item pe-4">
+                            <a class="nav-link active fs-5" href="#bike">Shop</a>
+                        </li>
+                        <li class="nav-item pe-4">
+                            <a class="nav-link active fs-5" href="#news">News</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active fs-5" href="#Contact-Form-id">Contact </a>
+                        </li>
+                    </ul>
+                    <div class="px-lg-5">
+                        <button class="customised-btn-color btn text-white px-4 fs-5">Log in</button>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <!-- navbar ends here. -->
+
+        <!-- banner section starts from here. -->
+        <section class="banner-section container py-5 my-5 m-auto">
+            <div class="row g-5 align-items-center justify-content-center">
+                <div class="banner-description col-lg-6 col-sm-12 px-lg-5">
+                    <small class="fw-lighter text-light">Computer-controlled digital
+                        transistorized
+                        with
+                        electronic
+                        advance</small>
+                    <h1 class="text-white">Honda CBR 300R</h1>
+                    <p class="text-light fw-lighter">The 2021 Honda CBR150R has been launched in Indonesia.
+                        The updated
+                        model comes with a much more
+                        aggressive bodywork similar to the Honda CBR250RR. It also gets a more premium Showa SFF-BP
+                        inverted front fork and a rear monoshock. Interestingly, apart from providing a more
+                        sophisticated damping, the front fork isn’t preload-adjustable like the telescopic fork in its
+                        predecessor. </p>
+
+                    <!-- Button trigger modal -->
+                    <button type="button" class="customised-btn-color btn text-white px-5 py-2 fs-5"
+                        data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        Purchase
+                    </button>
+
+                    <!-- Modal -->
+                    <div class="modal fade text-black" id="exampleModal" tabindex="-1"
+                        aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title fw-bolder" id="exampleModalLabel">Honda CB4</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <p>The bike comes with a dual-channel ABS as an optional variant. The new Honda
+                                        CBR150R is unlikely to be launched in India as its asking price would be too
+                                        high for a bike of its category. Instead, Honda is planning to introduce its
+                                        entire 500cc parallel-twin lineup in 2021, including the Honda CBR500R. All said
+                                        and done, we hope Honda realises the potential of the 150cc performance
+                                        motorcycle segment as well as the Yamaha R15 V3’s unhindered domination and
+                                        brings us the new CBR150R, perhaps in 2022.</p>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="customised-btn-color btn" data-bs-dismiss="modal"><a
+                                            href="#bike" class="text-white text-decoration-none">Buy
+                                            Now</a></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="banner-photo col-lg-6 col-sm-12 px-lg-5">
+                    <img src="images/header-bike.png" class="img-fluid" alt="">
+                </div>
+
+            </div>
+        </section>
+    </header>
+
+    <!-- Main strats from here. -->
+    <main>
+
+        <!-- Featured bike section starts here. -->
+        <section class="feature text-center" id="bike">
+            <div class="container pt-5 ">
+                <h1>Fetured Bikes 2021</h1>
+                <small class="customised-text-color customised-underline fw-bold ">Best Bike Collection</small>
+                <div class="row g-lg-5 gy-3">
+                    <div class="col-lg-4">
+                        <div class="p-5">
+                            <img class="gray-picture img-fluid" src="images/feature-bike.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="p-5">
+                            <img class="img-fluid" src="images/feature-bike.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="p-5">
+                            <img class="gray-picture img-fluid" src="images/feature-bike.jpg" alt="">
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- latest news. -->
+
+        <section class="latest-news-section container pt-5 my-5" id="news">
+            <h1 class="text-center mb-4">Latest News</h1>
+            <div class="row row-cols-1 row-cols-md-3 g-4 pt-3">
+                <div class="col-lg-4 col-sm-12">
+                    <div class="card h-100 p-3 border-1 shadow-sm">
+                        <img src="images/bike-1.png" class="card-img-top  mb-4" alt="...">
+                        <div class="card-body">
+                            <h4 class="card-title fw-bolder mb-3">Ducati XDIAVEL S-73</h4>
+                            <p class="card-text text-secondary">The first iteration of the dragster cruiser would
+                                perhaps have been
+                                the Yamaha V-Max, back in 1985. This design trend was followed in later decades by
+                                machines such as the Honda Magna and recently, the Harley-Davidson V-Rod series, which
+                                sees its final production run this year.</p>
+                        </div>
+                        <div class="card-footer bg-white border-0">
+                            <button type="button" class="customised-btn-color btn text-white p-s3">
+                                Read more</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-12">
+                    <div class="card h-100 p-3 border-1 shadow-sm">
+                        <img src="images/bike-2.png" class="card-img-top  mb-4" alt="...">
+                        <div class="card-body">
+                            <h4 class="card-title fw-bolder mb-3">Motorcycles & Scooters</h4>
+                            <p class="card-text text-secondary">Honda Motorcycle & Scooter India Pvt. Ltd. (HMSI), the
+                                only Honda in Indian 2Wheeler industry is the 100% subsidiary of Honda Motor Company
+                                Ltd., Japan, started its Indian operations at Manesar (District Gurgaon, Haryana) in May
+                                2001. </p>
+                        </div>
+                        <div class="card-footer bg-white border-0">
+                            <button type="button" class="customised-btn-color btn text-white p-s3">
+                                Read more</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-12">
+                    <div class="card h-100 p-3 border-1 shadow-sm">
+                        <img src="images/bike-3.png" class="card-img-top  mb-4" alt="...">
+                        <div class="card-body">
+                            <h4 class="card-title fw-bolder mb-3">2021 Honda CBR500R</h4>
+                            <p class="card-text text-secondary">Is it any wonder why the Honda CBR500R is one of our
+                                most popular sportbikes? It just gets so many things right. Price. Power. Weight.
+                                Handling. Its twin-cylinder engine revs freely and produces plenty of torque, and it
+                                lets us keep the bike narrow and nimble too.</p>
+                        </div>
+                        <div class="card-footer bg-white border-0">
+                            <button type="button" class="customised-btn-color btn text-white p-s3">
+                                Read more</button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- happy client section. -->
+
+        <section class="client-section container text-center pt-5 my-5">
+            <h1 class="mb-5">Happy <span class="customised-text-color">Clients says</span></h1>
+            <div class="container row row-cols-1 row-cols-lg-3 g-4 pt-2">
+                <div class="col">
+                    <div class="card h-100 p-2 pt-3">
+                        <img src="images/user-1.png" class="card-img-top img-fluid w-50 mx-auto" alt="...">
+                        <div class="card-body">
+                            <p class="card-text text-secondary">Their service is very good. I always prefer to suggest
+                                anyone to buy bikes from this brand. I am really happy with them</p>
+                            <div class="icons mb-3">
+                                <span class="customised-text-color"><i class="fas fa-star"></i></span>
+                                <span class="customised-text-color"><i class="fas fa-star"></i></span>
+                                <span class="customised-text-color"><i class="fas fa-star"></i></span>
+                                <span class="customised-text-color"><i class="fas fa-star"></i></span>
+                                <span class="customised-text-color"><i class="far fa-star"></i></span>
+                            </div>
+                            <p class="text-primary fw-bold">Ragina Miles</p>
+                            <p class="fw-bold ">Banker</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 p-2 pt-3">
+                        <img src="images/user-2.png" class="card-img-top img-fluid w-50 mx-auto" alt="...">
+                        <div class="card-body">
+                            <p class="card-text text-secondary">Awesome Millage. I baught a bike from here. Speed rate
+                                was awesome. And their online service is praiseworthy</p>
+                            <div class="icons mb-3">
+                                <span class="customised-text-color"><i class="fas fa-star"></i></span>
+                                <span class="customised-text-color"><i class="fas fa-star"></i></span>
+                                <span class="customised-text-color"><i class="fas fa-star"></i></span>
+                                <span class="customised-text-color"><i class="fas fa-star"></i></span>
+                                <span class="customised-text-color"><i class="far fa-star"></i></span>
+                            </div>
+                            <p class="text-primary fw-bold">Tina Parker</p>
+                            <p class="fw-bold ">Teacher</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 p-2 pt-3">
+                        <img src="images/user-3.jpg" class="card-img-top img-fluid w-50 h-50 rounded-circle mx-auto"
+                            alt="...">
+                        <div class="card-body">
+                            <p class="card-text text-secondary">What should I say? I baught a scooter for my little
+                                daughter from here. It's so comfortable. I loved it.</p>
+                            <div class="icons mb-3">
+                                <span class="customised-text-color"><i class="fas fa-star"></i></span>
+                                <span class="customised-text-color"><i class="fas fa-star"></i></span>
+                                <span class="customised-text-color"><i class="fas fa-star"></i></span>
+                                <span class="customised-text-color"><i class="fas fa-star"></i></span>
+                                <span class="customised-text-color"><i class="far fa-star"></i></span>
+                            </div>
+                            <p class="text-primary fw-bold">Raian jonathn</p>
+                            <p class="fw-bold ">House-wife</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- faq section starts. -->
+        <section class="faq-section container my-5 pt-5 my-5">
+            <h1 class="text-center mb-5 ">Frequently Asked <span class="customised-text-color">Questions</span></h1>
+            <div class="row pt-3 mt-5">
+                <div class="col-lg-6 col-sm-12">
+                    <img src="images/faq.png" alt="" class="img-fluid">
+                </div>
+                <div class="col-lg-6 col-sm-12">
+                    <div class="accordion" id="accordionPanelsStayOpenExample">
+                        <div class="accordion-item mb-5 border-0 rounded-5 shadow-sm">
+                            <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+                                <button
+                                    class="customised-accordian-btn accordion-button text-dark fw-bold p-4 rounded-3"
+                                    type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne"
+                                    aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+                                    What are the most important things I should
+                                    know about riding a bike?
+                                </button>
+                            </h2>
+                            <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show"
+                                aria-labelledby="panelsStayOpen-headingOne">
+                                <div class="accordion-body text-muted">
+                                    Safety First! Always obey the rules of the road. Obey all traffic signals, signs,
+                                    and laws. Get in the mindset of “driving” your bike—not just “riding” your bike.
+                                    This will help you be a more focused and legally compliant bike rider.When you look
+                                    at a bicycle, it's easy to see that the frame is the most important part of this
+                                    vehicle. Not only is the frame the one that holds the entire bike up and together
+                                    and allows you to sit on and steer it, but it also attests to the quality of the
+                                    materials used.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item my-5 border-0 rounded-5 shadow-sm">
+                            <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+                                <button
+                                    class="customised-accordian-btn accordion-button collapsed text-dark fw-bold p-4 rounded-3"
+                                    type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo"
+                                    aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+                                    How can I tell if my helmet is old and I need a
+                                    new one?
+                                </button>
+                            </h2>
+                            <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse"
+                                aria-labelledby="panelsStayOpen-headingTwo">
+                                <div class="accordion-body">
+                                    Bear in mind that if the helmet did its job most people would tell you that they did
+                                    not even hit their head, or did not hit their head that hard. And the thin shells on
+                                    most helmets now tend to hide any dents in the foam. But if you can see marks on the
+                                    shell or measure any foam crush at all, replace the helmet.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item my-5 border-0 rounded-3 shadow-sm">
+                            <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                                <button
+                                    class="customised-accordian-btn accordion-button collapsed text-dark fw-bold p-4 rounded-3"
+                                    type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false"
+                                    aria-controls="panelsStayOpen-collapseThree">
+                                    My bike has been in storage is it safe to ride?
+                                </button>
+                            </h2>
+                            <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse"
+                                aria-labelledby="panelsStayOpen-headingThree">
+                                <div class="accordion-body">
+                                    The bottom line: Leaving your bike outside for a day or two won't do major damage.
+                                    You may see signs of rust after a week of neglect. After one month in bad
+                                    conditions, your beloved bike parts will start to degrade.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item my-5 border-0 rounded-5 shadow-sm">
+                            <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                                <button
+                                    class="customised-accordian-btn accordion-button collapsed text-dark fw-bold p-4 rounded-3"
+                                    type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#panelsStayOpen-collapsefour" aria-expanded="false"
+                                    aria-controls="panelsStayOpen-collapsefour">
+                                    What rules should I follow when riding my bike?
+                                </button>
+                            </h2>
+                            <div id="panelsStayOpen-collapsefour" class="accordion-collapse collapse"
+                                aria-labelledby="panelsStayOpen-headingfour">
+                                <div class="accordion-body">
+                                    Before using your bicycle, make sure it is ready to ride. You should always
+                                    inspect your bike to make sure all parts are secure and working properly.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Specification Section. -->
+        <section class="specification-section container shadow-lg p-5">
+            <div class="table-responsive">
+                <h2 class="customised-text-color fw-bolder fs-1 text-center">Honda CBR150R Specifications</h2>
+                <table class="table caption-top table-hover">
+                    <caption class="text-dark fs-2 fw-bolder text-decoration-underline">Mileage</caption>
+                    <tbody class="fs-4">
+                        <tr>
+                            <th scope="row">Displacement</th>
+                            <td>149.16 cc</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Max-Power</th>
+                            <td>17.1 PS @ 9000 rpm</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Max Torque</th>
+                            <td>14.4 Nm @ 7000 rpm</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Front Brake</th>
+                            <td>Disc</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Rear Brake</th>
+                            <td>Disc</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Fuel Capacity</th>
+                            <td>12 L</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Body Type</th>
+                            <td>Sports Bike</td>
+                        </tr>
+
+                    </tbody>
+                </table>
+            </div>
+            <div class="table-responsive my-5">
+                <h2 class="customised-text-color fw-bolder fs-1 text-center">Honda CBR150R Features</h2>
+                <table class="table caption-top table-hover">
+                    <caption class="text-dark fs-2 fw-bolder text-decoration-underline">Mileage</caption>
+                    <tbody class="fs-4">
+                        <tr>
+                            <th scope="row">ABS</th>
+                            <td>Dual Channel</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Speedometer</th>
+                            <td>Digital</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Tripmeter</th>
+                            <td>Digital</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Front Brake</th>
+                            <td>Disc</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <!-- Contact-Form section -->
+        <section class="Contact-Form container shadow-lg my-5" id="Contact-Form-id">
+            <div class="row p-5">
+                <div class="col-lg-2 col-sm-12">
+                    <img class="img-fluid" src="images/ques.PNG" alt="">
+                </div>
+                <div class="col-lg-10 col-sm-12">
+                    <h2>Are You Confused?</h2>
+                    <p>Ask anything & get answer in 48 hours</p>
+                    <div class="input-group">
+                        <input type="text" class="form-control p-2 fs-5" placeholder="Write your question here"
+                            aria-label="Recipient's username" aria-describedby="button-addon2">
+                        <button class="btn btn-outline-secondary ms-lg-3 rounded-2 fs-5" type="button"
+                            id="button-addon2">Ask
+                            Question</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- footer strats from here. -->
+    <footer class="footer-bg-color text-white">
+        <div class="container p-5">
+            <div class="row g-5 align-items-center">
+                <div class="col-lg-9 col-sm-12">
+                    <div class="my-3 fs-5">
+                        <span><a class="text-decoration-none text-white me-3" href="">Download now</a></span>
+                        <span><a class="text-decoration-none text-white" href="">License</a></span>
+                    </div>
+                    <div class="mb-4 fs-5">
+                        <span><a class="text-decoration-none text-white me-3" href="">About</a></span>
+                        <span><a class="text-decoration-none text-white me-3" href="">Features</a></span>
+                        <span><a class="text-decoration-none text-white me-3" href="">Pricing</a></span>
+                        <span><a class="text-decoration-none text-white me-3" href="">Careers</a></span>
+                        <span><a class="text-decoration-none text-white me-3" href="">Help</a></span>
+                        <span><a class="text-decoration-none text-white" href="">Privacy Policy</a></span>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-12">
+                    <p class="fs-5">Get the App</p>
+                    <button
+                        class="Customised-footer-btn btn d-flex justify-content-around align-items-center text-white my-4 px-3">
+                        <i class="fab fa-apple mx-2"></i>
+                        <div class="btn-description">
+                            <small>Download On The</small>
+                            <h4 class="fw-bolder">Apple store</h4>
+                        </div>
+                    </button>
+                    <button
+                        class="Customised-footer-btn btn d-flex justify-content-around align-items-center text-white text-start px-3">
+                        <img class="img-fluid mx-2" src="images/playstore.PNG" width="38px" height="38px" alt="">
+                        <div class="btn-description">
+                            <small class="uppercase">Get it on</small>
+                            <h4 class="fw-bolder">Apple store</h4>
+                        </div>
+                    </button>
+                </div>
+                <div class="col-12 m-3">
+                    <small>&copy;2021 bike. ALL RIGHT RESERVES</small>
+                </div>
+            </div>
+
+        </div>
+    </footer>
+
+    <!-- font-awesome is added here -->
+    <script src="https://kit.fontawesome.com/bf3ff6b95a.js" crossorigin="anonymous"></script>
+</body>
+
+</html>

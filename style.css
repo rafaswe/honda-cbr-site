@@ -1,0 +1,63 @@
+/* google font use. */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+/* common styles added here. */
+:root{
+    --primary-color: #E76F51;
+}
+*{
+    font-family: 'Poppins', sans-serif;
+}
+header{
+    background-color: #264653;
+}
+h1{
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 72px;
+}
+.customised-btn-color {
+    background-color: var(--primary-color);
+}
+.customised-text-color{
+    color:  var(--primary-color);
+}
+.customised-underline::after{
+    content:'';
+    width:58.5px;
+    height: 3px;
+    background-color: var(--primary-color);
+    display: block;
+    margin: auto;
+}
+/* Main section starts from here. */
+.gray-picture{
+    filter: grayscale(100%);
+}
+.latest-news-section > button{
+    font-size: 18px;
+}
+.text-color{
+    color:black
+}
+.customised-accordian-btn{
+    border: 3px solid rgb(235, 232, 232);
+}
+ /* footer section starts from here. */
+.footer-bg-color{
+    background-color: black;
+}
+.Customised-footer-btn{
+    border: 2px solid white;
+    border-radius: 20px;
+}
+.Customised-footer-btn > i{
+    font-size: 50px;
+}
+
+/* media query for h1 */
+@media screen and (max-width:992px){
+    h1{
+        font-size: 38px;
+    }    
+}
